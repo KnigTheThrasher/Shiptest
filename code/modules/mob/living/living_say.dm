@@ -355,11 +355,6 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 		message = CLOCK_CULT_SLUR(message)
 
 
-	// check for and apply punctuation. thanks, bee
-	var/end = copytext(message, length(message))
-	if(!(end in list("!", ".", "?", ":", "\"", "-")))
-		message += "."
-
 	message = capitalize(message)
 
 	return message
