@@ -27,5 +27,6 @@
 			"outfit": "/datum/outfit/job/inteq/security",
 			"slots": 2
 		}
-	}
+	},
+	"enabled": true
 }

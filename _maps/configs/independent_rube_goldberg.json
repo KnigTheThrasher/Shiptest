@@ -37,5 +37,6 @@
 			"outfit": "/datum/outfit/job/independent/miner",
 			"slots": 2
 		}
-	}
+	},
+	"enabled": true
 }
