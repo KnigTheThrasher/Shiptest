@@ -10,5 +10,6 @@
 			"outfit": "/datum/outfit/job/assistant",
 			"slots": 6
 		}
-	}
+	},
+	"enabled": true
 }
