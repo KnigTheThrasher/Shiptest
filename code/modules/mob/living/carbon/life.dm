@@ -290,12 +290,12 @@
 	if(internal)
 		if(internal.loc != src)
 			internal = null
-			update_internals_hud_icon(0)
+			update_action_buttons_icon()
 		else if (!internals && !getorganslot(ORGAN_SLOT_BREATHING_TUBE)) //WS Port - Citadel Internals
 			internal = null
-			update_internals_hud_icon(0)
+			update_action_buttons_icon()
 		else
-			update_internals_hud_icon(1)
+			update_action_buttons_icon()
 			. = internal.remove_air_volume(volume_needed)
 			if(!.)
 				return FALSE //to differentiate between no internals and active, but empty internals

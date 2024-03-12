@@ -205,11 +205,11 @@
 			if(do_mob(usr, src, POCKET_STRIP_DELAY))
 				if(internal)
 					internal = null
-					update_internals_hud_icon(0)
+					update_action_buttons_icon()
 				else if(ITEM && istype(ITEM, /obj/item/tank))
 					if((wear_mask && (wear_mask.clothing_flags & ALLOWINTERNALS)) || getorganslot(ORGAN_SLOT_BREATHING_TUBE))
 						internal = ITEM
-						update_internals_hud_icon(1)
+						update_action_buttons_icon()
 
 				visible_message("<span class='danger'>[usr] [internal ? "opens" : "closes"] the valve on [src]'s [ITEM.name].</span>", \
 								"<span class='userdanger'>[usr] [internal ? "opens" : "closes"] the valve on your [ITEM.name].</span>", null, null, usr)
@@ -751,10 +751,6 @@
 				hud_used.healths.icon_state = "health6"
 		else
 			hud_used.healths.icon_state = "health7"
-
-/mob/living/carbon/proc/update_internals_hud_icon(internal_state = 0)
-	if(hud_used && hud_used.internals)
-		hud_used.internals.icon_state = "internal[internal_state]"
 
 /*WS revert
 /mob/living/carbon/proc/update_spacesuit_hud_icon(cell_state = "empty")

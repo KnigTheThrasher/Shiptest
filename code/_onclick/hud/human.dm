@@ -311,10 +311,6 @@
 	rest_icon.hud = src
 	static_inventory += rest_icon
 
-	internals = new /atom/movable/screen/internals()
-	internals.hud = src
-	infodisplay += internals
-
 	healths = new /atom/movable/screen/healths()
 	healths.hud = src
 	infodisplay += healths
