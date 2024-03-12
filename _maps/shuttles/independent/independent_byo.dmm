@@ -114,7 +114,11 @@
 /turf/open/floor/plating/airless,
 /area/ship/construction)
 "jj" = (
-/obj/structure/closet/crate/solarpanel_small,
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/structure/closet/crate/engineering/electrical{
+	name = "portable generator crate"
+	},
 /turf/open/floor/plating/airless,
 /area/ship/construction)
 "ke" = (

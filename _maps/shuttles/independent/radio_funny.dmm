@@ -20,15 +20,15 @@
 /area/ship/bridge)
 "aA" = (
 /obj/machinery/computer/cargo/express{
-	pixel_y = 9;
-	pixel_x = 5
+	pixel_y = 1;
+	pixel_x = 3
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "aW" = (
 /obj/machinery/computer/camera_advanced/syndie{
-	pixel_y = 9;
-	pixel_x = -5
+	pixel_y = 1;
+	pixel_x = -3
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
@@ -68,7 +68,7 @@
 "cS" = (
 /obj/structure/chair/comfy/shuttle/bronze{
 	dir = 1;
-	pixel_y = 15
+	pixel_y = 5
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
@@ -127,6 +127,14 @@
 	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
+"kp" = (
+/obj/structure/window/bronze,
+/obj/item/kirbyplants/random{
+	pixel_x = -11;
+	pixel_y = 6
+	},
+/turf/open/floor/carpet/nanoweave/blue,
+/area/ship/bridge)
 "kS" = (
 /obj/machinery/light_switch{
 	dir = 8;
@@ -139,13 +147,6 @@
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/structure/curtain/cloth/grey,
 /turf/open/floor/plasteel/freezer,
-/area/ship/bridge)
-"mm" = (
-/obj/item/kirbyplants/random{
-	pixel_x = -10;
-	pixel_y = 20
-	},
-/turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "mX" = (
 /obj/item/kirbyplants/random{
@@ -355,6 +356,7 @@
 /obj/machinery/cryopod{
 	dir = 4
 	},
+/obj/machinery/computer/cryopod/directional/north,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/bridge)
 "Jz" = (
@@ -366,7 +368,7 @@
 /area/ship/bridge)
 "Kn" = (
 /obj/machinery/computer/helm{
-	pixel_y = 9
+	pixel_y = 1
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
@@ -580,9 +582,9 @@ oK
 (5,1,1) = {"
 Ve
 aA
-mm
 Kr
-up
+Kr
+kp
 Ba
 Hu
 Ba
