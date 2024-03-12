@@ -2,6 +2,13 @@
 "aw" = (
 /obj/structure/table/bronze,
 /obj/machinery/light/directional/north,
+/obj/item/toy/figure/wizard{
+	pixel_x = 4
+	},
+/obj/item/toy/figure/ninja{
+	pixel_x = -7;
+	pixel_y = 10
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "az" = (
@@ -12,18 +19,37 @@
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
 "aA" = (
-/obj/structure/frame/computer{
-	anchored = 1
+/obj/machinery/computer/cargo/express{
+	pixel_y = 1;
+	pixel_x = 3
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "aW" = (
-/obj/structure/frame/computer,
+/obj/machinery/computer/camera_advanced/syndie{
+	pixel_y = 1;
+	pixel_x = -3
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "bf" = (
-/obj/structure/table/bronze,
 /obj/machinery/light/directional/north,
+/obj/structure/closet/syndicate{
+	pixel_y = 10
+	},
+/obj/item/card/id/syndicate/anyone,
+/obj/item/card/id/syndicate/anyone{
+	pixel_y = 5
+	},
+/obj/item/card/id/syndicate/anyone{
+	pixel_y = 10
+	},
+/obj/item/stack/sheet/metal/ten{
+	pixel_x = -5
+	},
+/obj/item/stack/sheet/glass/twenty{
+	pixel_x = 3
+	},
 /turf/open/floor/carpet/nanoweave,
 /area/ship/bridge)
 "bD" = (
@@ -41,7 +67,8 @@
 /area/ship/bridge)
 "cS" = (
 /obj/structure/chair/comfy/shuttle/bronze{
-	dir = 1
+	dir = 1;
+	pixel_y = 5
 	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
@@ -50,7 +77,9 @@
 /area/ship/bridge)
 "eI" = (
 /obj/structure/table/bronze,
-/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility{
+	pixel_x = 3
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "gb" = (
@@ -62,7 +91,10 @@
 /area/ship/bridge)
 "ib" = (
 /obj/structure/table/bronze,
-/obj/item/storage/firstaid/advanced,
+/obj/item/storage/firstaid/advanced{
+	pixel_x = -1;
+	pixel_y = 5
+	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
@@ -82,9 +114,26 @@
 	},
 /obj/structure/table/bronze,
 /obj/item/encryptionkey/wideband{
-	pixel_y = 12
+	pixel_y = -1;
+	pixel_x = 3
+	},
+/obj/item/encryptionkey/wideband{
+	pixel_y = -3;
+	pixel_x = -8
+	},
+/obj/item/encryptionkey/wideband{
+	pixel_y = 7;
+	pixel_x = -3
 	},
 /turf/open/floor/carpet/nanoweave/red,
+/area/ship/bridge)
+"kp" = (
+/obj/structure/window/bronze,
+/obj/item/kirbyplants/random{
+	pixel_x = -11;
+	pixel_y = 6
+	},
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "kS" = (
 /obj/machinery/light_switch{
@@ -99,24 +148,61 @@
 /obj/structure/curtain/cloth/grey,
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
+"mX" = (
+/obj/item/kirbyplants/random{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ship/bridge)
 "oK" = (
 /obj/machinery/power/shuttle/engine/void{
 	dir = 1
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
+"pC" = (
+/obj/structure/chair/plastic{
+	dir = 4;
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/turf/open/floor/carpet/nanoweave/orange,
+/area/ship/bridge)
 "pO" = (
 /obj/structure/table/bronze,
+/obj/item/pickaxe,
+/obj/item/mining_scanner{
+	pixel_y = -4;
+	pixel_x = -6
+	},
+/obj/item/storage/bag/ore{
+	pixel_x = 5;
+	pixel_y = -3
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "pY" = (
 /obj/structure/table/bronze,
+/obj/item/storage/box/syndie_kit/chameleon{
+	pixel_y = 8
+	},
+/obj/item/storage/box/syndie_kit/chameleon{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/obj/item/storage/box/syndie_kit/chameleon{
+	pixel_x = -7
+	},
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "rm" = (
 /obj/structure/window/bronze,
 /obj/structure/table/bronze,
-/obj/item/storage/toolbox/mechanical/old/clean,
+/obj/item/storage/toolbox/mechanical/old/clean{
+	pixel_x = -2;
+	pixel_y = 6
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "sq" = (
@@ -145,10 +231,14 @@
 /area/template_noop)
 "tZ" = (
 /obj/machinery/shower{
-	dir = 1
+	dir = 4;
+	pixel_x = -10
 	},
 /obj/structure/curtain,
-/obj/machinery/light/directional/west,
+/obj/machinery/light/directional/south,
+/obj/item/soap/syndie{
+	pixel_x = -3
+	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
 "up" = (
@@ -158,7 +248,14 @@
 "uu" = (
 /obj/structure/table/bronze,
 /obj/machinery/light/floor,
-/obj/item/radio/intercom/directional/north,
+/obj/item/reagent_containers/food/drinks/mug/tea{
+	pixel_x = 9;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_y = 2;
+	pixel_x = -7
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
 "uS" = (
@@ -172,6 +269,16 @@
 	dir = 4
 	},
 /obj/structure/table/bronze,
+/obj/item/radio/intercom/directional/west{
+	pixel_x = -38;
+	dir = 2;
+	pixel_y = -17
+	},
+/obj/item/reagent_containers/food/snacks/donkpocket/warm,
+/obj/item/reagent_containers/food/snacks/donkpocket/warm{
+	pixel_x = -6;
+	pixel_y = 9
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
 "Au" = (
@@ -196,7 +303,13 @@
 /area/ship/bridge)
 "BI" = (
 /obj/structure/table/bronze,
-/obj/item/trash/plate,
+/obj/item/trash/plate{
+	pixel_x = 2
+	},
+/obj/item/reagent_containers/food/drinks/mug/tea{
+	pixel_x = -3;
+	pixel_y = 10
+	},
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "EK" = (
@@ -207,6 +320,15 @@
 	dir = 2
 	},
 /turf/open/floor/carpet/nanoweave/blue,
+/area/ship/bridge)
+"GT" = (
+/obj/structure/table/bronze,
+/obj/item/trash/plate,
+/obj/item/reagent_containers/food/drinks/mug/tea{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "Hu" = (
 /obj/machinery/door/window/westright,
@@ -220,19 +342,21 @@
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
 "HL" = (
-/obj/structure/sink{
-	dir = 1
-	},
 /obj/structure/mirror{
 	pixel_y = -30
 	},
-/obj/machinery/light/directional/south,
+/obj/structure/sink{
+	dir = 1;
+	pixel_y = -15;
+	pixel_x = -5
+	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
 "HZ" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/comms{
+/obj/machinery/cryopod{
 	dir = 4
 	},
+/obj/machinery/computer/cryopod/directional/north,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/bridge)
 "Jz" = (
@@ -243,12 +367,14 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ship/bridge)
 "Kn" = (
-/obj/machinery/computer/helm,
+/obj/machinery/computer/helm{
+	pixel_y = 1
+	},
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "Ko" = (
-/obj/structure/table/bronze,
 /obj/machinery/light/directional/north,
+/obj/machinery/autolathe,
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "Kr" = (
@@ -259,13 +385,27 @@
 /area/ship/bridge)
 "Lu" = (
 /obj/structure/table/bronze,
-/obj/item/kitchen/knife,
+/obj/item/kitchen/knife{
+	pixel_x = -3;
+	pixel_y = 2
+	},
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "MW" = (
 /obj/structure/curtain/cloth/grey,
 /obj/structure/table,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 5
+	},
 /turf/open/floor/plasteel/freezer,
+/area/ship/bridge)
+"Ng" = (
+/obj/structure/chair/plastic{
+	dir = 4;
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
 "Nh" = (
 /obj/machinery/door/window{
@@ -277,16 +417,20 @@
 /obj/structure/window/bronze{
 	dir = 8
 	},
-/obj/machinery/jukebox,
+/obj/machinery/jukebox{
+	pixel_y = -3;
+	pixel_x = 3
+	},
 /obj/structure/window/bronze{
 	dir = 1
 	},
-/obj/item/radio/intercom/wideband/directional/north,
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/bridge)
 "Ob" = (
 /obj/structure/chair/plastic{
-	dir = 4
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 4
 	},
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/bridge)
@@ -300,7 +444,8 @@
 	dir = 1
 	},
 /obj/structure/toilet{
-	dir = 4
+	dir = 4;
+	pixel_x = -5
 	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
@@ -309,6 +454,14 @@
 	dir = 8
 	},
 /obj/structure/table/bronze,
+/obj/item/radio/intercom/wideband/directional/east{
+	pixel_x = 45;
+	dir = 2;
+	pixel_y = -14
+	},
+/obj/item/toy/plush/lizardplushie{
+	pixel_x = 4
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/bridge)
 "Rj" = (
@@ -325,14 +478,18 @@
 /turf/open/floor/plating,
 /area/ship/bridge)
 "VS" = (
-/obj/machinery/telecomms/allinone,
+/obj/machinery/telecomms/allinone{
+	pixel_y = 4
+	},
 /obj/structure/window/bronze,
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "Xu" = (
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/structure/closet/secure_closet/freezer,
+/obj/structure/closet/secure_closet/freezer{
+	pixel_y = -7
+	},
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/carpet/nanoweave/orange,
@@ -356,6 +513,9 @@
 	},
 /obj/structure/curtain/cloth/grey,
 /obj/structure/table,
+/obj/item/disk/nuclear/fake{
+	pixel_x = -4
+	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
 
@@ -396,7 +556,7 @@ Ve
 Ve
 Yx
 bf
-EK
+mX
 EK
 Rj
 de
@@ -424,7 +584,7 @@ Ve
 aA
 Kr
 Kr
-up
+kp
 Ba
 Hu
 Ba
@@ -487,8 +647,8 @@ Ve
 Yx
 Ko
 kS
-Ob
-Ob
+pC
+Ng
 Ob
 tj
 Yx
@@ -502,7 +662,7 @@ tL
 Yx
 Ve
 Yx
-BI
+GT
 BI
 Lu
 Yx
