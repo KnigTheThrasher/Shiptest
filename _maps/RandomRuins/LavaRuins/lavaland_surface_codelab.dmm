@@ -118,6 +118,11 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/codelab/subjectrooms)
+"bp" = (
+/obj/structure/closet/cardboard,
+/obj/item/clothing/mask/chameleon/broken,
+/turf/open/floor/plasteel/white,
+/area/ruin/unpowered/codelab/subjectrooms)
 "bq" = (
 /obj/structure/table,
 /obj/item/trash/semki,
@@ -927,7 +932,7 @@
 /area/ruin/unpowered/codelab/storage)
 "lU" = (
 /obj/structure/closet/cardboard,
-/obj/item/clothing/under/pants/black,
+/obj/item/clothing/mask/gas,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/codelab/subjectrooms)
 "lW" = (
@@ -3081,7 +3086,7 @@
 	pixel_y = 27
 	},
 /obj/structure/closet/cardboard,
-/obj/item/clothing/under/color/white,
+/obj/item/clothing/suit/hooded/wintercoat/science,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/codelab/subjectrooms)
 "Kl" = (
@@ -3220,6 +3225,10 @@
 /obj/item/spacecash/bundle/c1000,
 /turf/open/floor/wood,
 /area/ruin/unpowered/codelab/laboratory)
+"MA" = (
+/obj/structure/sign/poster/official/no_erp,
+/turf/closed/wall/mineral/titanium,
+/area/ruin/unpowered/codelab/subjectrooms)
 "MB" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
 	dir = 4
@@ -3831,8 +3840,8 @@
 /area/ruin/unpowered/codelab/reception)
 "VX" = (
 /obj/structure/closet/cardboard,
-/obj/item/clothing/under/color/white,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/item/pipe_dispenser,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/codelab/subjectrooms)
 "VY" = (
@@ -4122,10 +4131,10 @@
 /area/ruin/unpowered/codelab/exterior)
 "YW" = (
 /obj/structure/closet/cardboard,
-/obj/item/clothing/under/color/white,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
+/obj/item/construction/rcd,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/codelab/subjectrooms)
 "Zb" = (
@@ -4835,7 +4844,7 @@ qr
 rq
 BJ
 zM
-He
+MA
 nM
 EM
 Hu
@@ -4867,9 +4876,9 @@ aO
 Bc
 sK
 nw
-He
+MA
 zH
-lU
+bp
 nH
 kh
 He
