@@ -557,7 +557,7 @@
 /atom/movable/screen/healths/blob
 	name = "blob health"
 	icon_state = "block"
-	screen_loc = ui_internal
+	screen_loc = ui_stamina //blobs don't have stamina (i think)
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /atom/movable/screen/healths/blob/naut
@@ -614,6 +614,11 @@
 	layer = SPLASHSCREEN_LAYER
 	plane = SPLASHSCREEN_PLANE
 	var/client/holder
+
+/atom/movable/screen/stamina
+	name = "stamina"
+	icon_state = "stamina0"
+	screen_loc = ui_stamina
 
 /atom/movable/screen/splash/New(client/C, visible, use_previous_title) //TODO: Make this use INITIALIZE_IMMEDIATE, except its not easy
 	. = ..()
